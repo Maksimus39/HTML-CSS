@@ -1,3 +1,7 @@
+*{
+    color: hotpink;
+}
+
 p {
     color: green;
 }
@@ -12,5 +16,26 @@ ul li {
 
 a {
     color: black;
+!important;
     text-decoration: none;
 }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#first-text {
+    font-size: 30px;
+}
+
+.insta {
+    color: red;
+}
+
+#odin {
+    color: blue;
+}
+
+/*: *, tag, class, id, inline styles, important*/
