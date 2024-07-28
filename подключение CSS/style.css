@@ -1,0 +1,16 @@
+p {
+    color: green;
+}
+
+span {
+    color: red;
+}
+
+ul li {
+    list-style: circle;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
