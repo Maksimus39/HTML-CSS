@@ -1,0 +1,42 @@
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #223fbd;
+
+    /*padding-top: 20px;*/
+    /*padding-left: 50px;*/
+    /*padding-right: 10px;*/
+    /*padding-bottom: 20px;*/
+
+    /*padding: 20px 50px 20px 50px;*/
+    padding: 20px 50px;
+
+    /*border-width: 10px;*/
+    /*border-color: #a40d08;*/
+    /*border-style:solid ;*/
+    border: 10px solid #a40d08;
+
+    /*margin-top: 30px;*/
+    /*margin-bottom: 100px;*/
+    margin: 30px 0 100px 0;
+}
+
+/*а паддинги если писать в одну строку то
+идут по часовой стрелке
+*/
+.box p {
+    font-size: 20px;
+    color: hotpink;
+}
+
+#click {
+    background-color: #01011b;
+    padding: 12px 23px;
+    color: white;
+
+    /*border-width: 3px;*/
+    /*border-color: #21cc15;*/
+    /*border-style: dashed;*/
+    border: 3px dashed #21cc15;
+    margin-left: 50px;
+}
