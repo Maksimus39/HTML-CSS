@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+    .box {
+        width: 300px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        transition: all 1s;
+        margin-bottom: 30px;
+    }
+
+    /*.box p:last-child {*/
+    /*    color: yellow;*/
+    /*}*/
+
+    /*.box p:first-child {*/
+    /*    color: purple;*/
+    /*}*/
+
+    /*.box p:nth-child(2) {*/
+    /*    color: orange;*/
+    /*}*/
+
+    .box:hover {
+        background-color: red;
+    }
+
+    .box p:nth-child(odd){
+        color: bisque;
+    }
+    .box p:nth-child(even){
+        color: darkolivegreen;
+    }
+
+    a {
+        color: purple;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    a:hover {
+        color: green;
+    }
+
+    a:active {
+        color: pink;
+    }
+
+    a:visited {
+        color: black;
+    }
+
+    input:focus {
+        outline: none;
+    }
+</style>
+<body>
+
+<div class="box">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur ducimus eaque est fugit officia quia
+        quis
+        ratione repellendus voluptates.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur ducimus eaque est fugit officia quia
+        quis
+        ratione repellendus voluptates.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aspernatur ducimus eaque est fugit officia quia
+        quis
+        ratione repellendus voluptates.
+    </p>
+
+</div>
+<a href="#">Link to practice</a>
+<input type="text">
+</body>
+</html>
